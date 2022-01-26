@@ -1,3 +1,5 @@
 export const config = {
-  API_URL: "http://localhost:5000",
+	API_URL: 'http://localhost:5000',
+	MONGO_CONNECTION:
+		'mongodb+srv://teste:<teste>@cluster0.0gglr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 }
