@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import shortId from "shortid";
-import { config } from "../config/Constants";
+import { Request, Response } from 'express'
+import shortId from 'shortid'
+import { config } from '../config/Constants'
 import { URLModel } from '../database/model/URL'
 
 export class URLController {
